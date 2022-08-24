@@ -1,0 +1,62 @@
+/* Für die ganze Webseite wird ein Grundwert festgelegt */
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+/* Die H1 wird behandelt wie eine Navbar = oben stationär */
+h1 
+{
+width: 100%;
+height: 60px;
+margin: 0;
+position: fixed;
+top: 0;
+left: 0;
+background-color: cyan;
+z-index: 1;
+}
+
+header {
+    height: 70px;
+}
+
+/* Die Links bekommen eine blaue Farbe */
+.list ul li:nth-of-type(2) {
+    color: blue;
+}
+
+/* Die Bilder werden bei einer vorgegebenen Höhe von 200px (in html) nebeneinander positioniert */
+.image {
+    display: inline-block;
+}
+
+/* Die h3-Überschriften werden formatiert */
+.gleicheklasse {
+    color: rgb(255,165,0);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* Die footer-links werden ebenfalls formatiert */
+footer a:hover {
+    color: red
+}
+
+footer a:visited {
+    color: green;
+}
+
+/* Der Abschnitt des box-modell soll positioniert werden */
+.box-model {
+    padding: 5px;
+    margin: 10%;
+}
+
+/* Neben den 3 Bildern (images) soll ein Bild mit einem Baum eingefügt werden und in seiner Form verändert werden */
+a img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
